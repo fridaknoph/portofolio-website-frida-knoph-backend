@@ -1,0 +1,32 @@
+{
+  "name": "prototype-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.3.6",
+    "@strapi/plugin-users-permissions": "4.3.6",
+    "@strapi/strapi": "4.3.6",
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.8.0",
+    "pg-connection-string": "^2.5.0",
+    "strapi-provider-upload-aws-s3": "^3.6.10"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "f203c710-55a2-459d-9232-302be42ff8de"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
